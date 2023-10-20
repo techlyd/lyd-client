@@ -73,12 +73,14 @@ export const Contact = () => {
                         </p>
                     </div>
                 </form>
-                <div className="w-2/5 h-full flex items-center justify-around bg-gray-500 rounded-full py-2 px-4 mt-8">
-                    <MdWhatsapp size={35} />
-                    <div className="text-sm text-center text-white">
+                <div className="w-2/5 h-full flex items-center justify-around bg-white rounded-full py-2 px-4 mt-8 cursor-pointer">
+                    <MdWhatsapp size={35} color="green" />
+                    <div className="text-sm text-center">
                         <p>
                             Se preferir fazer um{" "}
-                            <strong>contato imediato</strong>
+                            <strong className="text-blue-400">
+                                contato imediato
+                            </strong>
                         </p>
                         <p>Clique aqui e fale com um consulktor agora mesmo</p>
                     </div>
