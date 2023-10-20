@@ -1,3 +1,6 @@
+import Image from "next/image";
+import logo from "@/assets/img/lyd-logo.png";
+
 export const MainBanner = () => {
     return (
         <div className="w-full h-screen flex items-center justify-center bg-gray-100 px-28 pt-32 gap-4">
@@ -39,7 +42,9 @@ export const MainBanner = () => {
                     eficazes.
                 </p>
             </div>
-            <div className="w-1/2 flex items-center justify-center">IMAGEM</div>
+            <div className="w-1/2 flex items-center justify-center">
+                <Image src={logo} alt="wee" width={550} height={550} />
+            </div>
         </div>
     );
 };

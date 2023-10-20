@@ -12,13 +12,13 @@ export const Header = () => {
                 <nav>
                     <ul className="flex items-center justify-center gap-8">
                         <li className="hover:text-blue-400 cursor-pointer">
-                            Quem somos
-                        </li>
-                        <li className="hover:text-blue-400 cursor-pointer">
                             O que fazemos
                         </li>
                         <li className="hover:text-blue-400 cursor-pointer">
                             Cases
+                        </li>
+                        <li className="hover:text-blue-400 cursor-pointer">
+                            Quem somos
                         </li>
                         <button className="py-2 px-4 text-base font-medium border-2 border-blue-400 rounded-full hover:bg-blue-400 hover:border-white hover:text-white">
                             Fale conosco

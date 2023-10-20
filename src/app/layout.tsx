@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import { Inter, Montserrat } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
-import { Header } from "@/components/home/Header";
-import { Footer } from "@/components/home/Footer";
+import { Header } from "@/components/common/Header";
+import { Footer } from "@/components/common/Footer";
+import { WhatsApp } from "@/components/common/WhatsApp";
 
 const font = Montserrat({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
         <html lang="pt-br">
             <body className={font.className}>
                 <Providers>
+                    <WhatsApp />
                     <Header />
                     {children}
                     <Footer />
