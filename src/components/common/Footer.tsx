@@ -1,4 +1,4 @@
-import { Contact } from "../home/Contact";
+import { Contact } from "./Contact";
 
 export const Footer = () => {
     return (

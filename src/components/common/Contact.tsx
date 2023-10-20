@@ -73,7 +73,11 @@ export const Contact = () => {
                         </p>
                     </div>
                 </form>
-                <div className="w-2/5 h-full flex items-center justify-around bg-white rounded-full py-2 px-4 mt-8 cursor-pointer">
+                <a
+                    href="https://wa.me/5541988185024"
+                    target="_blank"
+                    className="w-2/5 h-full flex items-center justify-around bg-white rounded-full py-2 px-4 mt-8 cursor-pointer"
+                >
                     <MdWhatsapp size={35} color="green" />
                     <div className="text-sm text-center">
                         <p>
@@ -84,7 +88,7 @@ export const Contact = () => {
                         </p>
                         <p>Clique aqui e fale com um consulktor agora mesmo</p>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     );
