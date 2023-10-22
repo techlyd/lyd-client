@@ -1,6 +1,5 @@
 import Image from "next/image";
-import img from "@/assets/img/main-banner-img.png";
-
+import logo from "@/assets/img/lyd-logo.png";
 import { TbArrowBigDownLinesFilled } from "react-icons/tb";
 import { SiWebpack } from "react-icons/si";
 import { TbSocial } from "react-icons/tb";
@@ -8,7 +7,10 @@ import { BiConversation } from "react-icons/bi";
 
 export const MainBanner = () => {
     return (
-        <div className="w-full h-screen flex items-center justify-center px-28 pt-32 gap-4">
+        <div className="w-full h-screen flex items-center justify-center bg-gray-50 px-28 pt-32 gap-4">
+            <button className="w-8 h-10 flex items-center justify-center rounded-md absolute bottom-2 border-2 border-black">
+                <TbArrowBigDownLinesFilled size={20} />
+            </button>
             <div className="w-1/2 flex flex-col justify-center gap-5">
                 <p className="text-base font-semibold text-slate-500">
                     Bem-vindo(a) à
@@ -27,7 +29,7 @@ export const MainBanner = () => {
                 <p className="font-bold">
                     Oferecemos uma ampla gama de serviços, incluindo:
                 </p>
-                <div className="flex flex-col gap-3 text-white">
+                <div className="flex flex-col gap-3 text-slate-500">
                     <div className="flex items-center justify-start gap-2">
                         <SiWebpack size={30} color="blue" />
                         <p>Desenvolvimento de sites e sistemas</p>
@@ -47,13 +49,9 @@ export const MainBanner = () => {
                     eficazes.
                 </p>
             </div>
-
             <div className="w-1/2 flex items-center justify-center">
-                <Image src={img} alt="wee" width={550} height={550} />
+                <Image src={logo} alt="wee" width={550} height={550} />
             </div>
-            <button className="w-8 h-10 flex items-center justify-center rounded-md absolute bottom-2 border-2 border-white hover:bg-white hover:text-[#0b1232]">
-                <TbArrowBigDownLinesFilled size={20} />
-            </button>
         </div>
     );
 };
