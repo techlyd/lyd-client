@@ -91,7 +91,7 @@ export const Services = () => {
                     </div>
                 </div>
             </section>
-            <section className="w-full h-full flex bg-white text-[#0b1232] py-14">
+            <section className="w-full h-full flex bg-[#0B1340] text-white py-14">
                 <div className="w-full h-full flex items-center justify-center px-28">
                     <div className="w-1/2 flex flex-col justify-center gap-4">
                         <div className="w-full text-3xl font-bold uppercase">
