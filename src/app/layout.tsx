@@ -23,9 +23,9 @@ export default function RootLayout({
             <body className={font.className}>
                 <Providers>
                     <WhatsApp />
-                    <Header />
+                    {/* <Header /> */}
                     {children}
-                    <Footer />
+                    {/* <Footer /> */}
                 </Providers>
             </body>
         </html>

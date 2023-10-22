@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Header = () => {
     return (
-        <div className="w-full h-32 flex items-center justify-between fixed top-0 left-0 px-28 bg-white shadow-md">
+        <div className="w-full h-32 flex items-center justify-between fixed top-0 left-0 z-10 px-28 bg-white shadow-md">
             <div className="flex items-center justify-center gap-4">
                 <Image src={logo} alt="logo" width={100} height={100} />
                 <h1 className="text-4xl font-medium">techlyd</h1>
