@@ -1,9 +1,11 @@
-import { Content } from "./content";
+import { MainBanner } from "./content/MainBanner";
+import { Services } from "./content/Services";
 
 export const HomePage = () => {
     return (
-        <main className="w-full h-full flex flex-col">
-            <Content />
-        </main>
+        <>
+            <MainBanner />
+            <Services />
+        </>
     );
 };
