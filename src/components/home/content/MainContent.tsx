@@ -320,7 +320,7 @@ export const MainContent = () => {
                         </p>
                     </div>
                     <div className="w-full flex flex-col items-center justify-center gap-20 px-28">
-                        <div className="w-full flex items-center pl-56">
+                        <div className="w-full flex items-center pl-28">
                             <div className="w-full h-full flex items-center justify-center">
                                 <Image
                                     src={yuri}
@@ -356,7 +356,7 @@ export const MainContent = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full flex items-center pl-56">
+                        <div className="w-full flex items-center pr-28">
                             <div className="w-full h-full flex items-center justify-center">
                                 <div className="w-5/6 flex flex-col items-end py-2 pr-5 gap-1">
                                     <h2 className="text-sm font-semibold text-gray-500 uppercase">
