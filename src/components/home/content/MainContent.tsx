@@ -1,8 +1,11 @@
 import Image from "next/image";
+
 import lamp from "@/assets/img/lamp-img.png";
 import web from "@/assets/img/software-e-sistemas-web.png";
 import site from "@/assets/img/site.png";
 import ecommerce from "@/assets/img/ecommerce.png";
+import yuri from "@/assets/img/yuri.jpg";
+import dorigo from "@/assets/img/foto.jpg";
 
 const Services = () => {
     return (
@@ -316,12 +319,78 @@ export const MainContent = () => {
                             processos
                         </p>
                     </div>
-                    <div className="w-full flex items-center justify-center">
-                        <div className="w-1/2 flex items-center justify-center">
-                            YURI VIADINHO UIUIUI
+                    <div className="w-full flex flex-col items-center justify-center gap-20 px-28">
+                        <div className="w-full flex items-center pl-56">
+                            <div className="w-full h-full flex items-center justify-center">
+                                <Image
+                                    src={yuri}
+                                    alt="equipe"
+                                    width={200}
+                                    height={200}
+                                    className="flex rounded-full border-4 border-[#2087e2] opacity-100"
+                                />
+                                <div className="w-5/6 flex flex-col py-2 pl-5 gap-1">
+                                    <h2 className="text-sm font-semibold text-gray-500 uppercase">
+                                        Co-founder
+                                    </h2>
+                                    <h1 className="text-3xl font-bold text-white">
+                                        Yuri Lopes
+                                    </h1>
+                                    <h2 className="text-lg font-semibold text-[#2087e2] uppercase">
+                                        Desenvolvedor BackEnd
+                                    </h2>
+                                    <p className="w-2/3 text-sm font-light text-white">
+                                        “Textinho divertido... Lorem Ipsum is
+                                        simply dummy text of the printing and
+                                        typesetting industry. Lorem Ipsum has
+                                        been the industrys standard dummy text
+                                        ever since the 1500s.”
+                                    </p>
+                                    <a
+                                        href="https://www.linkedin.com/in/yurilopesm/"
+                                        target="_blank"
+                                        className="text-sm font-light italic underline text-[#2088e3]"
+                                    >
+                                        Conheça ...
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div className="w-1/2 flex items-center justify-center">
-                            Dorigostoso
+                        <div className="w-full flex items-center pl-56">
+                            <div className="w-full h-full flex items-center justify-center">
+                                <div className="w-5/6 flex flex-col items-end py-2 pr-5 gap-1">
+                                    <h2 className="text-sm font-semibold text-gray-500 uppercase">
+                                        Co-founder
+                                    </h2>
+                                    <h1 className="text-3xl font-bold text-white">
+                                        Luiz Dorigo
+                                    </h1>
+                                    <h2 className="text-lg font-semibold text-[#2087e2] uppercase">
+                                        Desenvolvedor FrontEnd
+                                    </h2>
+                                    <p className="w-2/3 text-sm font-light text-white text-end">
+                                        “Textinho divertido... Lorem Ipsum is
+                                        simply dummy text of the printing and
+                                        typesetting industry. Lorem Ipsum has
+                                        been the industrys standard dummy text
+                                        ever since the 1500s.”
+                                    </p>
+                                    <a
+                                        href="https://www.linkedin.com/in/d3vnano/"
+                                        target="_blank"
+                                        className="text-sm font-light italic underline text-[#2088e3]"
+                                    >
+                                        ... Conheça
+                                    </a>
+                                </div>
+                                <Image
+                                    src={dorigo}
+                                    alt="equipe"
+                                    width={200}
+                                    height={200}
+                                    className="flex rounded-full border-4 border-[#2087e2] opacity-100"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
