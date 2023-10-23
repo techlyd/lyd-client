@@ -7,6 +7,8 @@ import ecommerce from "@/assets/img/ecommerce.png";
 import yuri from "@/assets/img/yuri.jpg";
 import dorigo from "@/assets/img/foto.jpg";
 
+import { BsLinkedin, BsInstagram, BsGithub } from "react-icons/bs";
+
 const Services = () => {
     return (
         <div className="w-full h-full flex flex-col items-center justify-center gap-10 pb-14">
@@ -320,7 +322,7 @@ export const MainContent = () => {
                         </p>
                     </div>
                     <div className="w-full flex flex-col items-center justify-center gap-20 px-28">
-                        <div className="w-full flex items-center pl-28">
+                        <div className="w-full flex items-center">
                             <div className="w-full h-full flex items-center justify-center">
                                 <Image
                                     src={yuri}
@@ -329,7 +331,7 @@ export const MainContent = () => {
                                     height={200}
                                     className="flex rounded-full border-4 border-[#2087e2] opacity-100"
                                 />
-                                <div className="w-5/6 flex flex-col py-2 pl-5 gap-1">
+                                <div className="w-full flex flex-col py-2 pl-5 gap-1">
                                     <h2 className="text-sm font-semibold text-gray-500 uppercase">
                                         Co-founder
                                     </h2>
@@ -339,26 +341,48 @@ export const MainContent = () => {
                                     <h2 className="text-lg font-semibold text-[#2087e2] uppercase">
                                         Desenvolvedor BackEnd
                                     </h2>
-                                    <p className="w-2/3 text-sm font-light text-white">
+                                    <p className="w-2/4 text-sm font-light text-white">
                                         “Textinho divertido... Lorem Ipsum is
                                         simply dummy text of the printing and
                                         typesetting industry. Lorem Ipsum has
                                         been the industrys standard dummy text
                                         ever since the 1500s.”
                                     </p>
-                                    <a
-                                        href="https://www.linkedin.com/in/yurilopesm/"
-                                        target="_blank"
-                                        className="text-sm font-light italic underline text-[#2088e3]"
-                                    >
-                                        Conheça ...
-                                    </a>
+                                    <div className="flex items-center gap-4 py-2">
+                                        <a
+                                            href="https://www.linkedin.com/in/yurilopesm/"
+                                            target="_blank"
+                                            className="text-sm font-light italic underline text-[#2088e3]"
+                                        >
+                                            <BsLinkedin size={20} />
+                                        </a>
+                                        <a
+                                            href="https://github.com/yurilopesmdv"
+                                            target="_blank"
+                                            className="text-sm font-light italic underline text-[#2088e3]"
+                                        >
+                                            <BsGithub size={20} />
+                                        </a>
+                                        <a
+                                            href="https://www.instagram.com/yuri.jlopes/"
+                                            target="_blank"
+                                            className="text-sm font-light italic underline text-[#2088e3]"
+                                        >
+                                            <BsInstagram size={20} />
+                                        </a>
+                                        <a
+                                            href="#"
+                                            className="text-sm font-light italic underline text-[#2088e3]"
+                                        >
+                                            Conheça ...
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full flex items-center pr-28">
+                        <div className="w-full flex items-center">
                             <div className="w-full h-full flex items-center justify-center">
-                                <div className="w-5/6 flex flex-col items-end py-2 pr-5 gap-1">
+                                <div className="w-full flex flex-col items-end py-2 pr-5 gap-1">
                                     <h2 className="text-sm font-semibold text-gray-500 uppercase">
                                         Co-founder
                                     </h2>
@@ -368,20 +392,42 @@ export const MainContent = () => {
                                     <h2 className="text-lg font-semibold text-[#2087e2] uppercase">
                                         Desenvolvedor FrontEnd
                                     </h2>
-                                    <p className="w-2/3 text-sm font-light text-white text-end">
+                                    <p className="w-2/4 text-sm font-light text-white text-end">
                                         “Textinho divertido... Lorem Ipsum is
                                         simply dummy text of the printing and
                                         typesetting industry. Lorem Ipsum has
                                         been the industrys standard dummy text
                                         ever since the 1500s.”
                                     </p>
-                                    <a
-                                        href="https://www.linkedin.com/in/d3vnano/"
-                                        target="_blank"
-                                        className="text-sm font-light italic underline text-[#2088e3]"
-                                    >
-                                        ... Conheça
-                                    </a>
+                                    <div className="flex items-center gap-4 py-2">
+                                        <a
+                                            href="#"
+                                            className="text-sm font-light italic underline text-[#2088e3]"
+                                        >
+                                            ... Conheça
+                                        </a>
+                                        <a
+                                            href="https://www.linkedin.com/in/d3vnano/"
+                                            target="_blank"
+                                            className="text-sm font-light italic underline text-[#2088e3]"
+                                        >
+                                            <BsLinkedin size={20} />
+                                        </a>
+                                        <a
+                                            href="https://github.com/d3vNano"
+                                            target="_blank"
+                                            className="text-sm font-light italic underline text-[#2088e3]"
+                                        >
+                                            <BsGithub size={20} />
+                                        </a>
+                                        <a
+                                            href="https://www.instagram.com/d3v.nano/"
+                                            target="_blank"
+                                            className="text-sm font-light italic underline text-[#2088e3]"
+                                        >
+                                            <BsInstagram size={20} />
+                                        </a>
+                                    </div>
                                 </div>
                                 <Image
                                     src={dorigo}
