@@ -284,22 +284,24 @@ export const MainContent = () => {
                     </div>
                 </div>
             </section>
-            <section>
-                <div className="w-full flex flex-col items-center justify-center gap-4 py-20">
-                    <div className="w-full flex flex-col items-center justify-center pb-14">
-                        <div className="text-3xl text-center uppercase pb-4">
+            <section className="w-full h-full flex text-white py-20">
+                <div className="w-full h-full flex items-center justify-center px-28">
+                    <div className="w-1/3 flex flex-col justify-center gap-4">
+                        <div className="w-full text-2xl font-bold uppercase">
                             <h1 className="text-[#2087e2]">
                                 O que dizem sobre a lyd
                             </h1>
-                            <span className="w-full h-[1.5px] flex bg-[#2087e2] my-2"></span>
+                            <span className="w-4/5 h-[1.5px] flex bg-[#2087e2] my-2"></span>
                         </div>
-                        <p className="w-1/3 flex flex-col gap-6 text-sm text-center">
+                        <p>
                             A satisfação de nossos clientes é o que realmente
                             importa. Confira a opinião de quem já confiou em
                             nós.
                         </p>
                     </div>
-                    <div>TESTEMUNHAS E AVALIAÇÕES</div>
+                    <div className="w-2/3 h-full flex items-center justify-center">
+                        <p>testemunhas e avaliações</p>
+                    </div>
                 </div>
             </section>
             <section>
