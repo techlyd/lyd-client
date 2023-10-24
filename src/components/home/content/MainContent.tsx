@@ -5,7 +5,7 @@ import web from "@/assets/img/software-e-sistemas-web.png";
 import site from "@/assets/img/site.png";
 import ecommerce from "@/assets/img/ecommerce.png";
 import yuri from "@/assets/img/yuri.jpg";
-import dorigo from "@/assets/img/foto.jpg";
+import dorigo from "@/assets/img/dorigo.jpg";
 import front from "@/assets/img/front-techs.png";
 import back from "@/assets/img/back-techs.png";
 
