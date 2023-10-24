@@ -6,6 +6,8 @@ import site from "@/assets/img/site.png";
 import ecommerce from "@/assets/img/ecommerce.png";
 import yuri from "@/assets/img/yuri.jpg";
 import dorigo from "@/assets/img/foto.jpg";
+import front from "@/assets/img/front-techs.png";
+import back from "@/assets/img/back-techs.png";
 
 import { BsLinkedin, BsInstagram, BsGithub } from "react-icons/bs";
 
@@ -322,8 +324,8 @@ export const MainContent = () => {
                         </p>
                     </div>
                     <div className="w-full flex flex-col items-center justify-center gap-20 px-28">
-                        <div className="w-full flex items-center">
-                            <div className="w-full h-full flex items-center justify-center">
+                        <div className="w-full flex items-center gap-10">
+                            <div className="w-3/5 h-full flex items-center justify-center">
                                 <Image
                                     src={yuri}
                                     alt="equipe"
@@ -341,7 +343,7 @@ export const MainContent = () => {
                                     <h2 className="text-lg font-semibold text-[#2087e2] uppercase">
                                         Desenvolvedor BackEnd
                                     </h2>
-                                    <p className="w-2/4 text-sm font-light text-white">
+                                    <p className="w-full text-sm font-light text-white">
                                         “Textinho divertido... Lorem Ipsum is
                                         simply dummy text of the printing and
                                         typesetting industry. Lorem Ipsum has
@@ -379,9 +381,25 @@ export const MainContent = () => {
                                     </div>
                                 </div>
                             </div>
+                            <div className="w-2/5 h-full">
+                                <Image
+                                    src={back}
+                                    alt="logos"
+                                    width={1000}
+                                    height={1000}
+                                />
+                            </div>
                         </div>
-                        <div className="w-full flex items-center">
-                            <div className="w-full h-full flex items-center justify-center">
+                        <div className="w-full flex items-center gap-10">
+                            <div className="w-2/5 h-full">
+                                <Image
+                                    src={front}
+                                    alt="front"
+                                    width={1000}
+                                    height={1000}
+                                />
+                            </div>
+                            <div className="w-3/5 h-full flex items-center justify-center">
                                 <div className="w-full flex flex-col items-end py-2 pr-5 gap-1">
                                     <h2 className="text-sm font-semibold text-gray-500 uppercase">
                                         Co-founder
@@ -392,7 +410,7 @@ export const MainContent = () => {
                                     <h2 className="text-lg font-semibold text-[#2087e2] uppercase">
                                         Desenvolvedor FrontEnd
                                     </h2>
-                                    <p className="w-2/4 text-sm font-light text-white text-end">
+                                    <p className="w-full text-sm font-light text-white text-end">
                                         “Textinho divertido... Lorem Ipsum is
                                         simply dummy text of the printing and
                                         typesetting industry. Lorem Ipsum has
