@@ -326,13 +326,15 @@ export const MainContent = () => {
                     <div className="w-full flex flex-col items-center justify-center gap-20 px-28">
                         <div className="w-full flex items-center gap-10">
                             <div className="w-3/5 h-full flex items-center justify-center">
-                                <Image
-                                    src={yuri}
-                                    alt="equipe"
-                                    width={200}
-                                    height={200}
-                                    className="flex rounded-full border-4 border-[#2087e2] opacity-100"
-                                />
+                                <div className="min-w-fit min-h-fit rounded-full bg-gradient-to-br from-orange-500 via-[#0B1340] to-[#2088e3] p-1">
+                                    <Image
+                                        src={yuri}
+                                        alt="equipe"
+                                        width={200}
+                                        height={200}
+                                        className="flex rounded-full opacity-100"
+                                    />
+                                </div>
                                 <div className="w-full flex flex-col py-2 pl-5 gap-1">
                                     <h2 className="text-sm font-semibold text-gray-500 uppercase">
                                         Co-founder
@@ -447,13 +449,15 @@ export const MainContent = () => {
                                         </a>
                                     </div>
                                 </div>
-                                <Image
-                                    src={dorigo}
-                                    alt="equipe"
-                                    width={200}
-                                    height={200}
-                                    className="flex rounded-full border-4 border-[#2087e2] opacity-100"
-                                />
+                                <div className="min-w-fit min-h-fit rounded-full bg-gradient-to-br from-[#2088e3] via-[#0B1340] to-orange-500 p-1">
+                                    <Image
+                                        src={dorigo}
+                                        alt="equipe"
+                                        width={200}
+                                        height={200}
+                                        className="flex rounded-full opacity-100"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
