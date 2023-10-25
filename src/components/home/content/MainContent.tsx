@@ -358,7 +358,7 @@ export const MainContent = () => {
                             </div>
                             <div className="w-fit h-fit bg-blue-500 rounded-e-3xl rounded-bl-3xl p-4 ml-20">
                                 <p className="text-sm font-medium italic">
-                                    " Mesmo investindo consideravelmente em
+                                    {'"'} Mesmo investindo consideravelmente em
                                     recursos no marketing interno, minha empresa
                                     enfrentava problemas nas vendas online. Ao
                                     contratar diversas agências de marketing,
@@ -366,7 +366,7 @@ export const MainContent = () => {
                                     inconsistente e os problemas persistiam.
                                     Agora, com os serviços da Lyd, obtenho um
                                     retorno claro do investimento, excelente
-                                    trabalho. "
+                                    trabalho. {'"'}
                                 </p>
                             </div>
                         </div>
