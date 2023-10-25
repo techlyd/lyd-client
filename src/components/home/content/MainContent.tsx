@@ -8,6 +8,7 @@ import yuri from "@/assets/img/yuri.jpg";
 import dorigo from "@/assets/img/dorigo.jpg";
 import front from "@/assets/img/front-techs.png";
 import back from "@/assets/img/back-techs.png";
+import webimg from "@/assets/img/web-img.png";
 
 import { BsLinkedin, BsInstagram, BsGithub } from "react-icons/bs";
 
@@ -285,9 +286,49 @@ export const MainContent = () => {
                             mercado e que nos deixam cheios de orgulho.
                         </p>
                     </div>
-                    <div>
-                        <div>{"cases >>"}</div>
-                        <div>{"<< cases"}</div>
+                    <div className="w-full flex items-center justify-center">
+                        <div className="w-3/5 flex items-center justify-center">
+                            <div className="h-[200px] flex flex-col items-center justify-center flex-[1] transition-[.3s] hover:flex-[3]">
+                                <Image
+                                    src={webimg}
+                                    alt="logos"
+                                    width={1000}
+                                    height={1000}
+                                />
+                            </div>
+                            <div className="h-[200px] flex flex-col items-center justify-center flex-[1] transition-[.3s] hover:flex-[3]">
+                                <Image
+                                    src={webimg}
+                                    alt="logos"
+                                    width={1000}
+                                    height={1000}
+                                />
+                            </div>
+                            <div className="h-[200px] flex flex-col items-center justify-center flex-[1] transition-[.3s] hover:flex-[3]">
+                                <Image
+                                    src={webimg}
+                                    alt="logos"
+                                    width={1000}
+                                    height={1000}
+                                />
+                            </div>
+                            <div className="h-[200px] flex flex-col items-center justify-center flex-[1] transition-[.3s] hover:flex-[3]">
+                                <Image
+                                    src={webimg}
+                                    alt="logos"
+                                    width={1000}
+                                    height={1000}
+                                />
+                            </div>
+                            <div className="h-[200px] flex flex-col items-center justify-center flex-[1] transition-[.3s] hover:flex-[3]">
+                                <Image
+                                    src={webimg}
+                                    alt="logos"
+                                    width={1000}
+                                    height={1000}
+                                />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
