@@ -12,6 +12,7 @@ import webimg from "@/assets/img/web-img.png";
 import porque from "@/assets/img/por-que-somos-diferentes.png";
 import sellphone from "@/assets/img/sellphone.png";
 import lourenzo from "@/assets/img/lourenzo-sell.jpg";
+import passguard from "@/assets/img/passguard.png";
 
 import { BsLinkedin, BsInstagram, BsGithub } from "react-icons/bs";
 
@@ -300,6 +301,15 @@ export const MainContent = () => {
                             <div className="w-fit h-fit flex items-center justify-center bg-[#040a5e3a] rounded-3xl p-10 saturate-0 hover:saturate-100 hover:bg-[#4454ff25] duration-500">
                                 <Image
                                     src={sellphone}
+                                    alt="logos"
+                                    width={75}
+                                    height={75}
+                                    className="object-cover"
+                                />
+                            </div>
+                            <div className="w-fit h-fit flex items-center justify-center bg-[#040a5e3a] rounded-3xl p-10 saturate-0 hover:saturate-100 hover:bg-[#4454ff25] duration-500">
+                                <Image
+                                    src={passguard}
                                     alt="logos"
                                     width={75}
                                     height={75}
