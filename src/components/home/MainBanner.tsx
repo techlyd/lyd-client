@@ -1,5 +1,5 @@
 import Image from "next/image";
-import img from "@/assets/img/main-banner-img.png";
+import { full_service } from "@/assets/img";
 
 import { TbArrowBigDownLinesFilled } from "react-icons/tb";
 import { SiWebpack } from "react-icons/si";
@@ -49,7 +49,7 @@ export const MainBanner = () => {
             </div>
 
             <div className="w-1/2 flex items-center justify-center">
-                <Image src={img} alt="wee" width={550} height={550} />
+                <Image src={full_service} alt="wee" width={550} height={550} />
             </div>
             <button className="w-8 h-10 flex items-center justify-center rounded-md absolute bottom-2 border-2 border-white hover:bg-white hover:text-[#0b1232]">
                 <TbArrowBigDownLinesFilled size={20} />
