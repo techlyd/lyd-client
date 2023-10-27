@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { ceo_sellphone } from "@/assets/img";
 
@@ -50,6 +52,7 @@ export const Testimonials = () => {
                                 excelente trabalho. {'"'}
                             </p>
                         </div>
+                        <div id="team"></div>
                     </div>
                 </div>
             </div>

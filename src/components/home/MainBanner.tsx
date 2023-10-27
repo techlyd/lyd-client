@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { full_service } from "@/assets/img";
 
@@ -6,9 +8,14 @@ import { SiWebpack } from "react-icons/si";
 import { TbSocial } from "react-icons/tb";
 import { BiConversation } from "react-icons/bi";
 
+import { Link } from "react-scroll";
+
 export const MainBanner = () => {
     return (
-        <div className="w-full h-screen flex items-center justify-center px-28 pt-32 gap-4">
+        <div
+            id="top"
+            className="w-full h-screen flex items-center justify-center px-28 pt-32 gap-4"
+        >
             <div className="w-1/2 flex flex-col justify-center gap-5">
                 <p className="text-base font-semibold text-slate-500">
                     Bem-vindo(a) à
@@ -51,8 +58,20 @@ export const MainBanner = () => {
             <div className="w-1/2 flex items-center justify-center">
                 <Image src={full_service} alt="wee" width={550} height={550} />
             </div>
-            <button className="w-8 h-10 flex items-center justify-center rounded-md absolute bottom-2 border-2 border-white hover:bg-white hover:text-[#0b1232]">
-                <TbArrowBigDownLinesFilled size={20} />
+            <button
+                id="our_work"
+                className="w-8 h-10 flex items-center justify-center rounded-md absolute bottom-2 border-2 border-white hover:bg-white hover:text-[#0b1232]"
+            >
+                <Link
+                    activeClass="active"
+                    to="our_work"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                >
+                    <TbArrowBigDownLinesFilled size={20} />
+                </Link>
             </button>
         </div>
     );

@@ -7,7 +7,10 @@ import {
 
 const Contact = () => {
     return (
-        <div className="w-full h-full flex flex-col items-center justify-center">
+        <div
+            id="contact"
+            className="w-full h-full flex flex-col items-center justify-center pt-28"
+        >
             <div className="w-1/3 h-full flex flex-col items-center justify-center my-14">
                 <h1 className="w-full text-center text-3xl font-semibold text-blue-400 uppercase">
                     Vamos falar sobre o seu projeto?

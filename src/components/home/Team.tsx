@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { yuri, dorigo, frontend, backend } from "@/assets/img";
 import { BsLinkedin, BsInstagram, BsGithub } from "react-icons/bs";

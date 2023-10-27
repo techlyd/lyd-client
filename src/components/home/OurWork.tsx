@@ -1,3 +1,5 @@
+"use client";
+
 import { Services } from "./Services";
 
 export const OurWork = () => {
@@ -16,6 +18,7 @@ export const OurWork = () => {
                             etapas do processo de criação do produto, desde a
                             consutoria até a entrega final.
                         </p>
+                        <div id="services"></div>
                         <p>
                             Nosso time de especialistas está pronto para atender
                             às expectativas de todos os projetos que fazem parte

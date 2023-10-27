@@ -1,3 +1,5 @@
+"use client";
+
 export const Approach = () => {
     return (
         <section className="py-20">
@@ -124,12 +126,12 @@ export const Approach = () => {
                                 Após toda a documentação, damos início ao
                                 desenvolvimento do projeto.
                                 <br />
-                                <br />É nesta etapa que ocorre a prototipagem do
-                                sistema/software com base nas melhores
-                                tecnologias e alta expertise de profissionais
-                                capacitados para desenvolver ferramentas
-                                flexíveis e escaláveis para as necessidades do
-                                cliente.
+                                <br id="cases" />É nesta etapa que ocorre a
+                                prototipagem do sistema/software com base nas
+                                melhores tecnologias e alta expertise de
+                                profissionais capacitados para desenvolver
+                                ferramentas flexíveis e escaláveis para as
+                                necessidades do cliente.
                             </p>
                         </div>
                     </div>
